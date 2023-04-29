@@ -1,0 +1,31 @@
+/* navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 7rem;
+}
+/* Navbar: logo img */
+.logo {
+  margin: 10px 10px;
+}
+.logo img {
+  margin: 1px;
+  padding: 0px;
+  height: 144px;
+  width: 139px;
+}
+.navbar ul {
+    display: flex;
+    padding: 0px 85px 57px;
+}
+.navbar ul li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+.navbar ul li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 5px 28px;
+    margin: 5px 3px;
+}
